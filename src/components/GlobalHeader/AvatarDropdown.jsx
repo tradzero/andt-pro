@@ -1,4 +1,4 @@
-import { Avatar, Icon, Menu, Spin } from 'antd';
+import { Icon, Menu, Spin } from 'antd';
 import { FormattedMessage } from 'umi-plugin-react/locale';
 import React from 'react';
 import { connect } from 'dva';
@@ -21,7 +21,6 @@ class AvatarDropdown extends React.Component {
 
       return;
     }
-
     router.push(`/account/${key}`);
   };
 
@@ -58,7 +57,6 @@ class AvatarDropdown extends React.Component {
     return currentUser && currentUser.name ? (
       <HeaderDropdown overlay={menuHeaderDropdown}>
         <span className={`${styles.action} ${styles.account}`}>
-          <Avatar size="small" className={styles.avatar} src={currentUser.avatar} alt="avatar" />
           <span className={styles.name}>{currentUser.name}</span>
         </span>
       </HeaderDropdown>

@@ -94,15 +94,10 @@ export default {
               redirect: '/welcome',
             },
             {
-              path: '/welcome',
-              name: 'welcome',
-              icon: 'smile',
-              component: './Welcome',
-            },
-            {
-              name: 'success',
-              path: '/result/success',
-              component: './result/success',
+              path: '/dashboard',
+              name: '首页',
+              icon: 'dashboard',
+              component: './Index',
             },
             {
               component: './404',

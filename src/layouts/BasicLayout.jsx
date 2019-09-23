@@ -23,7 +23,8 @@ const menuDataRender = menuList =>
 
 const footerRender = () => (
     <>
-      <div
+     {/* footer代码 */}
+      {/* <div
         style={{
           padding: '0px 24px 24px',
           textAlign: 'center',
@@ -36,7 +37,7 @@ const footerRender = () => (
             alt="netlify logo"
           />
         </a>
-      </div>
+      </div> */}
     </>
   );
 
