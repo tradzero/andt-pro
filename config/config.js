@@ -91,11 +91,11 @@ export default {
           routes: [
             {
               path: '/',
-              redirect: '/welcome',
+              redirect: '/dashboard',
             },
             {
               path: '/dashboard',
-              name: '首页',
+              name: 'dashboard',
               icon: 'dashboard',
               component: './Index',
             },
